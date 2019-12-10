@@ -10,6 +10,7 @@ public class Element extends Stove {
     private Dish dish;
 
     public Element() {
+        super("Stovetop");
     }
 
     public void setTemperature(ElementHeat temperature) {

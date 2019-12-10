@@ -12,6 +12,7 @@ public class Oven extends Stove {
     private List<Dish> dishes;
 
     public Oven() {
+        super("Oven");
         this.dishes = new ArrayList<Dish>();
     }
 

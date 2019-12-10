@@ -5,8 +5,10 @@ import tk.shanebee.dinner.util.Util;
 public abstract class Appliance {
 
     boolean powerState;
+    private String name;
 
-    public Appliance() {
+    public Appliance(String name) {
+        this.name = name;
         this.powerState = false;
     }
 
@@ -21,6 +23,10 @@ public abstract class Appliance {
 
     public void update() {
         Util.log("Update for appliance: " + this);
+    }
+
+    public String getName() {
+        return name;
     }
 
 }
