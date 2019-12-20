@@ -7,5 +7,8 @@ public enum Material {
     SALT,
     PEPPER,
     FROZEN_PEAS,
-    FROZEN_CORN
+    FROZEN_CORN,
+    MUSHROOM_SOUP,
+    SHREDDED_CHEESE,
+    TATOR_TOT
 }

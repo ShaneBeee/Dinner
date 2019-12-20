@@ -2,6 +2,7 @@ package tk.shanebee.dinner.food;
 
 import tk.shanebee.dinner.material.Material;
 import tk.shanebee.dinner.misc.Measurement;
+import tk.shanebee.dinner.util.Util;
 
 @SuppressWarnings("unused")
 public class Ingredient {
@@ -45,10 +46,10 @@ public class Ingredient {
 
     @Override
     public String toString() {
-        return "Ingredient{" +
-                "material=" + material +
-                ", amount=" + amount +
-                ", measurement=" + measurement +
-                '}';
+        return Util.trans("Ingredient{" +
+                "&bmaterial=&a" + material +
+                ", &bamount=&a" + amount +
+                ", &bmeasurement=&a" + measurement +
+                "&r}");
     }
 }

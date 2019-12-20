@@ -14,4 +14,6 @@ public abstract class Recipe {
 
     public abstract void start();
 
+    public abstract void cookDish(int seconds);
+
 }

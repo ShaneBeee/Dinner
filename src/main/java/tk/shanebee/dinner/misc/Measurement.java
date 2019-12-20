@@ -6,6 +6,7 @@ public enum Measurement {
     CUP,
     TABLESPOON,
     TEASPOON,
-    PINCH
+    PINCH,
+    CAN
 
 }
