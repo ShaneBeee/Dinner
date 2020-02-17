@@ -3,6 +3,7 @@ package tk.shanebee.dinner.appliance;
 import tk.shanebee.dinner.recipe.Recipe;
 import tk.shanebee.dinner.util.Util;
 
+@SuppressWarnings("unused")
 public abstract class Appliance {
 
     boolean powerState;

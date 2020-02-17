@@ -31,6 +31,11 @@ public class Util {
         LocalDateTime now = LocalDateTime.now();
         String time = dtf.format(now);
         String prefix = "[" + time + "][Dinner] ";
+        try {
+            Thread.sleep(250);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         System.out.println(prefix + message + RESET);
     }
 

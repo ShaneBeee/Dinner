@@ -66,9 +66,8 @@ public class Oven extends Stove {
         thread.start();
     }
 
+    // Preheat and wait for the oven
     public class PreHeat implements Runnable {
-        // Preheat and wait for the oven
-
         private Oven oven;
 
         public PreHeat(Oven oven) {
@@ -78,7 +77,7 @@ public class Oven extends Stove {
         public void run() {
             Util.log("---Preheating " + getName() + "...");
             try {
-                int sleepTime = 350 * 25;
+                int sleepTime = oven.temperature * 40;
                 Thread.sleep(sleepTime);
             } catch (InterruptedException e) {
                 e.printStackTrace();
