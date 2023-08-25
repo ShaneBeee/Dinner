@@ -10,5 +10,5 @@ public enum Material {
     FROZEN_CORN,
     MUSHROOM_SOUP,
     SHREDDED_CHEESE,
-    TATOR_TOT
+    TATER_TOT
 }

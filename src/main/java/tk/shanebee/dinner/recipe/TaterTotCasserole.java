@@ -9,10 +9,10 @@ import tk.shanebee.dinner.misc.Measurement;
 import tk.shanebee.dinner.temp.ElementHeat;
 import tk.shanebee.dinner.util.Util;
 
-public class TatorTotCasserole extends Recipe {
+public class TaterTotCasserole extends Recipe {
 
-    public TatorTotCasserole() {
-        super("Tator Tot Casserole");
+    public TaterTotCasserole() {
+        super("Tater Tot Casserole");
     }
 
     private Oven oven;
@@ -74,7 +74,7 @@ public class TatorTotCasserole extends Recipe {
         Ingredient peas = new Ingredient(Material.FROZEN_PEAS, Measurement.CUP, 0.5);
         Ingredient corn = new Ingredient(Material.FROZEN_CORN, Measurement.CUP, 0.5);
         Ingredient mushroomSoup = new Ingredient(Material.MUSHROOM_SOUP, Measurement.CAN, 1);
-        Ingredient tatorTots = new Ingredient(Material.TATOR_TOT, Measurement.CUP, 2);
+        Ingredient taterTots = new Ingredient(Material.TATER_TOT, Measurement.CUP, 2);
         Ingredient cheese = new Ingredient(Material.SHREDDED_CHEESE, Measurement.CUP, 2);
 
         // Pour peas and corn on top
@@ -84,8 +84,8 @@ public class TatorTotCasserole extends Recipe {
         // Pour can of soup on top
         casseroleDish.pourIngredient(mushroomSoup);
 
-        // Place tator tops on top
-        casseroleDish.addIngredient(tatorTots);
+        // Place tater tops on top
+        casseroleDish.addIngredient(taterTots);
 
         // Put cheese on top
         casseroleDish.addIngredient(cheese);
